@@ -22,7 +22,7 @@ public class Logger extends AbstractMojo {
 
     public void error(String message) {
         System.out.println(
-                ConsoleColors.PURPLE + "[" + name + "]" +
+                ConsoleColors.PURPLE + "[" + name + "]" + ConsoleColors.RESET + ": " +
                 ConsoleColors.RED + message);
     }
 
